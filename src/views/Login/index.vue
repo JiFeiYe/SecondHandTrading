@@ -15,10 +15,11 @@ import {useRouter} from 'vue-router'
 
 const counterStore = useCounterStore()
 const router = useRouter()
-onMounted(() => {
-  if (counterStore.token !== '')
-    router.push('/')
-})
+
+// onMounted(() => {
+//   if (counterStore.token !== '')
+//     router.push('/')
+// })
 
 const value = ref('用户登录')
 const change = () => {

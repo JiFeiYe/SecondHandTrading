@@ -45,14 +45,14 @@ import Category from '@/views/Home/components/Category.vue'
 import {useRouter} from 'vue-router'
 
 import a from '@/assets/111.png'
-import b from '@/assets/222.jpg'
-import c from '@/assets/333.jpg'
+// import b from '@/assets/222.jpg'
+// import c from '@/assets/333.jpg'
 
 const router = useRouter()
 const counterStore = useCounterStore()
 const skuInfoList = ref([])
 const images = ref([
-  a, b, c
+  a/*, b, c*/
 ])
 
 const getSkuInfoList = async () => {
